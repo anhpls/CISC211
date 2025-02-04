@@ -2,6 +2,7 @@
 
 [ASCII Table](https://www.lookuptables.com/text/ascii-table)
 
+```
 Hexadecimal
 My name:
 416e68204875796e68
@@ -11,7 +12,7 @@ Anh Huynh
 2 words (2 x 8) = 16 bits
 10 bytes = 8 bits \* 10 bytes = 80 bits
 
-```
+
 NAND
 both have to be true to = true
 
@@ -28,7 +29,7 @@ T + T = F
 T + F = T
 F + T = T
 F + F = F
-```
+
 
 ---
 
@@ -36,7 +37,7 @@ bitwise NOT / bitwise complement performs the negation of each bit
 0 = 1
 1 = 0
 
-```
+
 Example: NOT   0111  (decimal 7)
           1000  (decimal 8)
 ```
