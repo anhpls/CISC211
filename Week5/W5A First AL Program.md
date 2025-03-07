@@ -1,7 +1,7 @@
 **W5A First AL Program**
 
 1. Flowchart not required for this assignment
-2. There were no challenges performing this task due to the fact that it was done in class. 
+2. There were no challenges performing this task due to the fact that it was done in class.
 
 ```
 section	.text
