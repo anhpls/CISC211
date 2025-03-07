@@ -1,5 +1,8 @@
 **W5A First AL Program**
 
+1. Flowchart not required for this assignment
+2. There were no challenges performing this task due to the fact that it was done in class. 
+
 ```
 section	.text
    global _start		;must be declared for linker (ld)
@@ -21,16 +24,16 @@ section	.data
 ;msg2 db 'Hello, world!',0xa
 msg db 'This is the first line',0xa,'I am a coded to print these lines',0xa,'This is my last line',0xa
 
-                                 ;strings to be printed
-                                 ;Declare a label "msg" which has
+                                ;strings to be printed
+                                ;Declare a label "msg" which has
                               	;our string we want to print.
                               	;for reference: 0xa = "\n" (line feed)
                               	;db = define byte
-len equ $ - msg     		         ;length of the string
-                				      ;len" will calculate the current
-                				      ;offset minus the "msg" offset.
-                				      ;this should give us the size of "msg".
-                        		   ;len equals current offset - msg
+len equ $ - msg     		        ;length of the string
+                				      	;len" will calculate the current
+                				      	;offset minus the "msg" offset.
+                				      	;this should give us the size of "msg".
+                        		   	;len equals current offset - msg
 
 
 ```
