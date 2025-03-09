@@ -20,6 +20,6 @@ segment .bss        ;use this space for uninitialized variable (result)
     result resb 4
 
 segment .data       ;use this space for initialized variables (var1 and var2)
-	var1 dd 10      ;initialized var1 set to 10
-    var2 dd 15      ;initialized var2 set to 15
+	var1 dd 10      ;initialized var1 to 10
+    var2 dd 15      ;initialized var2 to 15
 ```
