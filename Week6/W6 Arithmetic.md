@@ -1,4 +1,4 @@
- [W6 Flowchart.pdf](../../../../Downloads/W6 Flowchart.pdf) 
+
 
 **Task 1:**
 
@@ -13,8 +13,8 @@ _start:
 
     mov [result], eax
 
-		mov eax,1
-		int 0x80
+mov eax,1
+int 0x80
 
 section .data
     var1 dd 10 ; var1 is assigned 10
@@ -36,8 +36,8 @@ _start:
     add eax, [var4] ;add var4
     mov [result], eax ;mov eax to result
 
-		mov eax,1
-		int 0x80
+mov eax,1
+int 0x80
 
 section .data
     var1 dd 10 ;var1 = 10
@@ -66,8 +66,8 @@ _start:
 
     mov [result], eax ;store eax in result
 
-		mov eax,1
-		int 0x80
+mov eax,1
+int 0x80
 
 section .data
     var1 dd 10 ;var1 = 10
@@ -98,8 +98,8 @@ _start:
 
     mov [result], eax ;store eax in result
 
-		mov eax,1
-		int 0x80
+mov eax,1
+int 0x80
 
 section .data
     var1 dd 10 ;var1 = 10
