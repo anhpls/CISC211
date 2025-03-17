@@ -1,4 +1,4 @@
-
+2. The hardest part about this lab was just keeping track of all the variables and making sure they performed the proper arithmetic functions. Constantly tracking and checking the registers by stepping through the program's executes helped obtain the results that were needed. 
 
 **Task 1:**
 
