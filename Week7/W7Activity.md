@@ -1,4 +1,4 @@
-#1. A challenge while performing this lab was trying to implement a TEST instruction scenario while also implementing the XOR operand without it skipping over one or the other during every execution. Figured out that I should use TEST first to check IF a register is 0, and if it's not, I can force the next register to be 0 to execute the jump evnn.
+1. A challenge while performing this lab was trying to implement a TEST instruction scenario while also implementing the XOR operand without it skipping over one or the other during every execution. Figured out that I should use TEST first to check IF a register is 0, and if it's not, I can force the next register to be 0 to execute the jump evnn.
 
 ```
 section .text
