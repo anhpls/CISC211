@@ -25,7 +25,7 @@ evnn:
         int 0x80
 
 section .data
-        var1 dd 10        ;var1 = 10
+        var1 dd 9         ;var1 = 9
         var2 dd 20        ;var2 = 20
 
 segment .bss
