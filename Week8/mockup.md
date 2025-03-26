@@ -49,10 +49,9 @@ section .data
         s4 dd 40
         s5 dd 65
 
-        msg db "Mean Score: ", [result]
+        msg db "Mean Score: ",
 segment .bss
         result resd 1
-        mean resb 1
 ```
 
 # Convert the following
@@ -73,15 +72,36 @@ segment .bss
 1 % 2 = 0 R1     1
 
 Binary: 1000111111
+
+
+575 % 16 = 35 R15 F
+35 & 16 = 2 R3    3
+2 & 16 = 0 R2     2
+
+Hexadecimal = 0x23F
+
+80
+Binary: 4 bits = 1 0 0 0   0 0 0 0
+
 ```
 
 # Represent the following into negative numbers
 
 - Convert -10 into binary using 1's and 2's complements
 
+```
+     128 64 32 16 8 4 2 1
+10  = 00001010
+-10 = 11110101
+
+
+
+```
+
 # Identify error(s) in the following code
 
-```assembly
+```
+assembly
 section .text
     global _start
 
@@ -97,6 +117,8 @@ _start:
 section .data
     result resb 1
 ```
+
+The uninitialized result variable should be assigned in segment .bss due to the error of "warning: uninitialized space declared in non-BSS section". In addition, brackets [] should be placed around result for proper usage of the variable in the code.
 
 # Transfer the bits into the Cache memory
 
