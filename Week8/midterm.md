@@ -76,7 +76,7 @@ segment .bss
 | Register Name   | Value |
 | --------------- | ----- |
 | EAX (Quotient)  | 0     |
-| EBX (Remainder) | 7     |
+| EDX (Remainder) | 7     |
 
 
 
