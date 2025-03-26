@@ -20,15 +20,15 @@ answer = uninitialized
 
 **b.**
 
-```
+```assembly
 section .text
         global _start
 
 _start:
-        mov eax, [var1] ;move var1 to eax regis
+        mov eax, [var1] ;move var1 to eax regs
         add eax, 2      ;eax = var1 + 2
 
-        mov ebx, [var3] ;move var3 to ebx regis
+        mov ebx, [var3] ;move var3 to ebx regs
         sub ebx, [var2] ;ebx = var3 - var2
 
         div ebx         ;divide (var1 + 2) / (var3 - var2)
@@ -37,7 +37,7 @@ _start:
 
         mov eax, [result] ;move result to eax
         add eax, '0'      ;converting to character
-        mov [answer], al  ;move accumulator low to answer var
+        mov [answer], al  
 
         ;print msg to console
         mov	eax, 4       ;system call number (sys_write)
@@ -128,7 +128,7 @@ section .text
         global _start
 
 _start:
-        mov eax, [var1] ;move var1 to eax regis
+        mov eax, [var1] ;move var1 to eax regs
         xor edx, edx    ;clear edx for proper division
         mov ebx, 2      ;ebx = 2
 
