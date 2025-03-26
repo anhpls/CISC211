@@ -105,22 +105,21 @@ Y = a + b
 
 **a.**
 
-1. move variable to eax
+1. move the variable to eax
 2. set ebx to 2 as the divisor
 
-2. check to see if eax is even or odd by dividing by ebx 
+2. check to see if eax is even or odd by dividing by ebx (2)
 
 3. check remainder in edx 
 4.  if remainder is 0, then jump to evnn block
    1. evnn block: 
-      1. set eax to 2
-      2. move eax to result
-      3. exit
+      1. print msg_even
+      2. exit
 5. if remainder is not 0, then jump to odd block
    1. odd block:
-      1. set eax to 1
-      2. move eax to result
-      3. exit
+      1. print msg_odd
+      2. exit
+6. Exit
 
 
 
@@ -130,39 +129,53 @@ section .text
 
 _start:
         mov eax, [var1] ;move var1 to eax regis
+        xor edx, edx    ;clear edx for proper division
         mov ebx, 2      ;ebx = 2
 
         div ebx         ;eax = var1 / 2
-        je evnn         ;jump to evnn block if 0
+
+        cmp edx, 0      ;check if remainder is 0
+        jz evnn         ;jump to evnn block if 0
                         ;if jump not 0, then continue
 
-        mov eax, 1
+odd: 
+        mov eax, 4          ; sys_write
+        mov ebx, 1          ; stdout
+        mov ecx, msg_odd
+        mov edx, len_odd
+        int 0x80
+
+        ;exit
+        mov eax,1
         int 0x80
 
 evnn:
-        mov eax, 2     
-        mov [result], eax ;set result to 2 if even
+        mov eax, 4          ; sys_write
+        mov ebx, 1          ; stdout
+        mov ecx, msg_even
+        mov edx, len_even
+        int 0x80
 
         ;exit
         mov eax,1
         int 0x80
 
-odd: 
-        mov eax, 1     
-        mov [result], eax ;set result to 1 if odd
-
-        ;exit
-        mov eax,1
+        ;exit program
+        mov eax, 1
         int 0x80
+
 
 section .data
-        var1 dd 9         ;var1 = 9
+        var1 dd 9         ;test var1 = 9 
+
+        msg_even db 'Even number', 0xa
+        len_even equ $ - msg_even
+
+        msg_odd db 'Odd number', 0xa
+        len_odd equ $ - msg_odd
 
 segment .bss
         result resd 1
-
-
-
 ```
 
 
