@@ -136,7 +136,7 @@ _start:
 
         cmp edx, 0      ;check if remainder is 0
         jz evnn         ;jump to evnn block if 0
-                        ;if jump not 0, then continue
+                        ;if not 0, then continue
 
 odd: 
         mov eax, 4          ; sys_write
