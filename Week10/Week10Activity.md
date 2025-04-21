@@ -46,6 +46,7 @@ f_loop:
 3.
 
 ```assembly
+section .text
 	global _start
 
 _start:
