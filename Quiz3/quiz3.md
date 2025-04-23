@@ -4,10 +4,10 @@ section .text
 
 _start:
     mov ecx, [x] ; counter
-    mov eax, 1   ; eax is accumulated sum of nums
+    mov eax, 1   ; eax is accumulated factors of nums
 
 nums:
-    mul ecx      ; eax *= ecx 
+    mul ecx      ; eax *= ecx
     loop nums
 
     mov [result], eax   ; move eax into result
