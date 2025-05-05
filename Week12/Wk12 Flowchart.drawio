@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="Page-1" id="PnD9z_b2kLcHyU5C59J6">
-    <mxGraphModel dx="4083" dy="2810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="1396" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
             <mxPoint x="143" y="-207.57142857142844" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tD2wnzOYwihvBfpT3VRt-19" value="_start:&lt;div&gt;push x variable as first argument&lt;/div&gt;&lt;div&gt;call _check_odd_even function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-19" value="_start:&lt;div&gt;push x variable as first argument&lt;/div&gt;&lt;div&gt;call _check_odd_even function&lt;br&gt;&lt;/div&gt;&lt;div&gt;call exit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-33" y="-514" width="352" height="193" as="geometry" />
         </mxCell>
         <mxCell id="tD2wnzOYwihvBfpT3VRt-22" value="&lt;div&gt;; convert each digit to ASCII and print&lt;/div&gt;.print_loop:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pop eax (digit from stack)&lt;/div&gt;&lt;div&gt;add eax, 48 (convert to ASCII)&lt;/div&gt;&lt;div&gt;mov [result], eax (store in eax)&lt;/div&gt;&lt;div&gt;push ecx (push counter)&lt;/div&gt;&lt;div&gt;call display&lt;br&gt;pop ecx (restore counter)&lt;/div&gt;&lt;div&gt;decrement ecx (counter)&lt;/div&gt;&lt;div&gt;loop print_loop until counter = 0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -125,7 +125,7 @@
         <mxCell id="tD2wnzOYwihvBfpT3VRt-46" value="call .checkNum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-378" y="647" width="404" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="tD2wnzOYwihvBfpT3VRt-50" value="call exit to exit program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-50" value="exit program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="259.5" y="2112" width="327" height="157" as="geometry" />
         </mxCell>
       </root>
