@@ -1,9 +1,133 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="Page-1" id="PnD9z_b2kLcHyU5C59J6">
-    <mxGraphModel>
+    <mxGraphModel dx="4083" dy="2810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-1" target="tD2wnzOYwihvBfpT3VRt-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-109.52631578947364" y="95.05263157894751" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-1" target="tD2wnzOYwihvBfpT3VRt-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="383.86883231540287" y="88.00285714285724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="-201" width="352" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-3" value="_check_odd_even function:&amp;nbsp;&lt;div&gt;push ebp&lt;/div&gt;&lt;div&gt;mov ebp, esp&lt;/div&gt;&lt;div&gt;sub esp, 4&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print &quot;The number &quot;&lt;/div&gt;&lt;div&gt;mov first argument into eax&lt;br&gt;then store into local [ebp-4]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;compare to 9&lt;/div&gt;&lt;div&gt;if &amp;gt; 9 then jump to print_number&lt;br&gt;else &amp;lt; 9 call display single digit and call .checkNum&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-22.25" y="-175" width="330.5" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-7" value="x &amp;lt;= 9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="6" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-8" value="x &amp;gt; 9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362" y="6" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-9" target="tD2wnzOYwihvBfpT3VRt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254.5" y="96" width="314" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-10" value=".print_number:&lt;br&gt;reload x into eax&lt;div&gt;ebx = 10 as a divisor&lt;/div&gt;&lt;div&gt;clear counter (ecx)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280.5" y="118.5" width="262" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-14" target="tD2wnzOYwihvBfpT3VRt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="320" width="339" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-15" value="&lt;div&gt;; %10 to print digits of multi digit nums&lt;/div&gt;&lt;div&gt;; store remainder in edx, quotient in eax&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;.calculate:&lt;div&gt;clear edx&lt;/div&gt;&lt;div&gt;divide by 10&lt;/div&gt;&lt;div&gt;push digit into edx&lt;/div&gt;&lt;div&gt;increment ecx&lt;/div&gt;&lt;div&gt;compare to 0&lt;/div&gt;&lt;div&gt;loop if there are still digits&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="340" width="291" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-17" target="tD2wnzOYwihvBfpT3VRt-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-31" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-17" target="tD2wnzOYwihvBfpT3VRt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-17" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="656" width="339" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143" y="-207.57142857142844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-19" value="_start:&lt;div&gt;push x variable as first argument&lt;/div&gt;&lt;div&gt;call _check_odd_even function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="-514" width="352" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-22" value="&lt;div&gt;; convert each digit to ASCII and print&lt;/div&gt;.print_loop:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pop eax (digit from stack)&lt;/div&gt;&lt;div&gt;add eax, 48 (convert to ASCII)&lt;/div&gt;&lt;div&gt;mov [result], eax (store in eax)&lt;/div&gt;&lt;div&gt;push ecx (push counter)&lt;/div&gt;&lt;div&gt;call display&lt;br&gt;pop ecx (restore counter)&lt;/div&gt;&lt;div&gt;decrement ecx (counter)&lt;/div&gt;&lt;div&gt;loop print_loop until counter = 0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="677" width="291" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-28" value="&lt;div&gt;display&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;display:&lt;div&gt;display digit utilizing [result]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701" y="656" width="339" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-30" target="tD2wnzOYwihvBfpT3VRt-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-30" target="tD2wnzOYwihvBfpT3VRt-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="622" y="1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-30" value=".checkNum:&lt;div&gt;divide x by 2&lt;/div&gt;&lt;div&gt;if there is a remainder in edx&lt;/div&gt;&lt;div&gt;then x is odd&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;jump to even/odd depending edx = 0 or edx != 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="992" width="339" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-34" target="tD2wnzOYwihvBfpT3VRt-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393.55555555555566" y="1697.5555555555557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-34" value=".even:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;output &quot; is even.&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="1287" width="335" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-36" target="tD2wnzOYwihvBfpT3VRt-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392.44444444444434" y="1696.4444444444443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-36" value=".odd:&lt;br&gt;&lt;br&gt;output &quot; is odd.&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="1267" width="404" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-37" value="edx = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="138" y="1246" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-38" value="edx != 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="744" y="1246" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-51" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-41" target="tD2wnzOYwihvBfpT3VRt-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-41" value=".done:&lt;div&gt;call linefeed&lt;/div&gt;&lt;div&gt;exit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="1691" width="462" height="303" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.528;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-43" target="tD2wnzOYwihvBfpT3VRt-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="47" y="697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-47" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-43" target="tD2wnzOYwihvBfpT3VRt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-43" value="&lt;div&gt;single digit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;display2:&lt;br&gt;add eax, 48 (convert to ASCII)&lt;div&gt;mov eax into [result]&lt;/div&gt;&lt;div&gt;call display&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-378" y="257" width="404" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tD2wnzOYwihvBfpT3VRt-46" target="tD2wnzOYwihvBfpT3VRt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-46" value="call .checkNum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-378" y="647" width="404" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="tD2wnzOYwihvBfpT3VRt-50" value="call exit to exit program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259.5" y="2112" width="327" height="157" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
