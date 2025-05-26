@@ -4,6 +4,8 @@ By Anh Huynh
 
 
 
+
+
 **Counter 1 to 20,000 (without Recursion)**
 
 ```assembly
@@ -143,6 +145,8 @@ print_newline:
     pop eax
     ret
 ```
+
+
 
 
 
@@ -295,6 +299,8 @@ print_newline:
 
 
 
+
+
 ## Comparison
 
 Time Output for counter_fun.txt
@@ -307,6 +313,8 @@ sys     0m0.000s
 
 
 
+
+
 Time Output for counter_rec.txt
 
 ```
@@ -314,6 +322,8 @@ real    0m0.002s
 user    0m0.000s
 sys     0m0.001s
 ```
+
+
 
 
 
