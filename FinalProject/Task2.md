@@ -4,6 +4,8 @@ By Anh Huynh
 
 
 
+**Youtube:** https://youtu.be/7eZ1RmHAZjw
+
 
 
 **Counter 1 to 20,000 (without Recursion)**
@@ -306,9 +308,9 @@ print_newline:
 Time Output for counter_fun.txt
 
 ```
-real    0m0.002s
-user    0m0.001s
-sys     0m0.000s
+real    0m0.304s
+user    0m0.020s
+sys     0m0.283s
 ```
 
 
@@ -318,9 +320,9 @@ sys     0m0.000s
 Time Output for counter_rec.txt
 
 ```
-real    0m0.002s
-user    0m0.000s
-sys     0m0.001s
+real    0m0.304s
+user    0m0.044s
+sys     0m0.259s
 ```
 
 
@@ -329,4 +331,5 @@ sys     0m0.001s
 
 ##### Efficiency
 
-According to the time output for both the function and the recursive version of the function, there is a slight difference in the system execution time. It shows that the execution time for the recursive function is longer and this is due to the fact that there are more stack calls within the recursive version. The stack is being overloaded more than it is within the regular function call since the function utilizes a count loop. So in this case of printing values from 1 to x, the function call is more efficient than the recursive version. 
+After running both versions, I found that the loop-based version is slightly more efficient than the recursive version in terms of CPU processing time. As you can see from the "user" time, the time was more than double, which makes sense since recursion involves more whole function calls and stack operations. For large counters like 20,000, loops seem to be more efficient.
+
